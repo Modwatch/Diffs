@@ -1,6 +1,6 @@
 {
   "name": "modwatchdiffs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,10 @@
     "prepublish": "npm run build"
   },
   "author": "Aaron Ballard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Modwatch/Diffs.git"
+  },
   "dependencies": {
     "core-js": "^2.4.0",
     "jsondiffpatch": "^0.1.43"

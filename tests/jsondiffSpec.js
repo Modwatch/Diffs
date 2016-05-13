@@ -1,5 +1,4 @@
 import test from "ava";
-import chalk from "chalk";
 import { diffModFile, patchModFile } from "../src/index";
 import files from "../modfiles/index";
 
